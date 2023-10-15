@@ -25,7 +25,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: #F28500;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -50,14 +50,15 @@ a:hover {
 }
 .nav a {
   transition: all .5s;
+  color: white
 }
 .nav a:hover {
-  color: white
+  color: #4169e1
 }
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/los-angeles.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -78,15 +79,16 @@ header .profile-image:hover {
 }
 .tag {
   background-color: #efefef;
+  border-radius: 20px;
   color: black;
   padding: 10px;
-  border-radius: 5px;
+
   display: table;
   margin: 10px auto;
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: #F28500;
 }
 .card {
   margin: 30px;
@@ -95,11 +97,12 @@ header .profile-image:hover {
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
-  border-radius: 6px;
+  border-radius: 20px;
+  border: 1px black solid;
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #4169e1;
 }
 
 ul.skills {
@@ -108,17 +111,21 @@ ul.skills {
 }
 
 .skills li {
-  border-radius: 6px;
+  border-radius: 10px;
+  border: 1px black solid;
   display: inline-block;
-  background: #ff9904;
-  color: white;
+  color: black;
   padding: 5px 10px;
   margin: 2px;
+  transition: all .5s;
+
+  
 }
 
-.skills li:nth-child(odd) {
-  background: #0399ff;
+.skills li:hover{
+  background-color: #4169e1;
 }
+
 
 footer {
   width: 100%;
